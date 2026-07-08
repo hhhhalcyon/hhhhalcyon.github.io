@@ -1,0 +1,110 @@
+site_name: Halcyon Docs
+site_description: 个人知识库
+site_author: halcyon
+
+repo_name: halcyon
+repo_url: https://github.com/hhhhalcyon/hhhhalcyon.github.io
+
+theme:
+  name: material
+
+  language: zh
+
+  logo: assets/logo.png
+
+  favicon: assets/logo.png
+
+  palette:
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: indigo
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: indigo
+
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - navigation.indexes
+    - navigation.tracking
+
+    - toc.follow
+    - toc.integrate
+
+    - search.suggest
+    - search.highlight
+
+    - content.code.copy
+
+    - content.tabs.link
+
+    - content.action.edit
+
+    - content.action.view
+
+plugins:
+
+  - search
+
+markdown_extensions:
+
+  - admonition
+
+  - tables
+
+  - footnotes
+
+  - attr_list
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.tabbed
+
+  - pymdownx.arithmatex
+
+extra_css:
+
+  - stylesheets/extra.css
+
+extra:
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/hhhhalcyon
+
+nav:
+
+  - 首页: index.md
+
+  - 数学:
+
+      - 微积分: math/calculus.md
+
+  - 化工:
+
+      - 化工原理: chemistry/basic.md
+
+  - Python:
+
+      - 基础: python/python.md
+
+  - AI:
+
+      - 深度学习: ai/dl.md
+
+  - 关于我: about.md
