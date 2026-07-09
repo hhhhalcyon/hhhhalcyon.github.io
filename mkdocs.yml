@@ -91,20 +91,13 @@ nav:
 
   - 首页: index.md
 
-  - 数学:
-
-      - 微积分: math/calculus.md
 
   - 化工:
 
       - 化工原理: chemistry/basic.md
 
-  - Python:
+  - 文章:
+      - 文章1: article/article1.md
 
-      - 基础: python/python.md
-
-  - AI:
-
-      - 深度学习: ai/dl.md
 
   - 关于我: about.md
