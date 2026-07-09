@@ -91,13 +91,11 @@ nav:
 
   - 首页: index.md
 
-
   - 化工:
 
       - 化工原理: chemistry/basic.md
 
   - 文章:
       - 文章1: article/article1.md
-
 
   - 关于我: about.md
