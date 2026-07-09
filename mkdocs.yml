@@ -1,5 +1,5 @@
 site_name: Halcyon Docs
-site_description: 个人知识库
+site_description: store
 site_author: halcyon
 
 repo_name: halcyon
@@ -91,11 +91,14 @@ nav:
 
   - 首页: index.md
 
-  - 化工:
-
-      - 化工原理: chemistry/basic.md
-
   - 文章:
-      - 文章1: article/article1.md
+      - 2023: 
+          - 新年献词丨每一次的拥抱都以松手告终: article/2023/01.md
+          - 再见保尔：左方和他的《南方周末》时代: article/2023/02.md
+      - 2026:
+          - article/2026/01.md
+
+  - 原创:
+      - 01: original/01.md
 
   - 关于我: about.md

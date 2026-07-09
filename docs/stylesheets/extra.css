@@ -1,9 +1,9 @@
 .md-header{
-    background:#5E35B1;
+    background:rgb(38, 166, 195);
 }
 
 .md-tabs{
-    background:#5E35B1;
+    background:rgb(38, 166, 195);
 }
 
 .md-typeset h1{
@@ -11,7 +11,7 @@
 }
 
 .md-typeset h2{
-    border-left:5px solid #5E35B1;
+    border-left:5px solid rgb(38, 166, 195);
     padding-left:10px;
 }
 
