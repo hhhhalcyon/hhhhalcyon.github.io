@@ -1,0 +1,92 @@
+.md-header{
+    background:rgb(38, 166, 195);
+}
+
+.md-tabs{
+    background:rgb(38, 166, 195);
+}
+
+.md-typeset h1{
+    font-size:2.4rem;
+}
+
+.md-typeset h2{
+    border-left:5px solid rgb(38, 166, 195);
+    padding-left:10px;
+}
+
+.md-sidebar{
+    font-size:15px;
+}
+
+.md-content{
+    max-width:900px;
+}
+
+.md-typeset{
+    line-height:1.9;
+}
+
+.md-typeset table{
+    font-size:15px;
+}
+
+
+/* 首页语录卡片 */
+.quote-card {
+    max-width:1000px;
+    margin:40px auto;
+    padding:35px 45px;
+    position:relative;
+    text-align:center;
+    background:
+    rgba(255,255,255,0.12);
+    backdrop-filter:blur(12px);
+    border-radius:5px;
+    border:
+    1px solid rgba(255,255,255,0.25);
+    box-shadow:
+    0 10px 35px rgba(0,0,0,0.12);
+    overflow:hidden;
+}
+.quote-mark {
+    position:absolute;
+    top:5px;
+    left:20px;
+    font-size:80px;
+    font-family:Georgia;
+    opacity:0.25;
+}
+#quote-text {
+    font-size:20px;
+    font-weight:350;
+    color:#145969;
+    line-height:2;
+    transition:
+    opacity 0.6s;
+}
+.quote-author {
+    margin-top:20px;
+    font-size:16px;
+    opacity:0.7;
+    transition:
+    opacity 0.6s;
+}
+#quote-link {
+    text-decoration:none;
+    color:inherit;
+}
+#quote-link:hover {
+    cursor:pointer;
+}
+.quote-card:hover {
+    transform:
+    translateY(-3px);
+    box-shadow:
+    0 15px 45px rgba(0,0,0,0.18);
+    transition:0.3s;
+}
+
+.hover-image {position: relative;cursor: pointer;}
+.hover-image img {display: none;position: absolute;width: 800px !important;max-width: none !important;top: -20px;left: 0;z-index: 10;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.25);}
+.hover-image:hover img {display: block;}
